@@ -1,0 +1,180 @@
+@font-face {
+  font-family: "Amatic-bold";
+  src: url("../fonts/amatic-bold-webfont.woff") format("woff"),
+       url("../fonts/amatic-bold-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: bold;
+
+}
+
+body {
+  margin: 0;
+}
+
+/*  flexible images */
+
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+.photo-1 {
+  margin-top: 1em;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+/* home page nav */
+
+#a1 {
+  padding-bottom: 2em;
+  font: bold 1.5em "Amatic-bold", "Arial Narrow", sans-serif;
+  color: white;
+  font-size: 1.7em;
+  letter-spacing: .05em;
+  padding-left: 1em;
+}
+
+footer {
+  background: #7a9acf;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-align: center;
+}
+
+h4 {
+  font: .7em "arial";
+  color: #070159;
+  text-transform: light;
+  line-height: 1.5em;
+  !letter-spacing: .05em;
+  margin-top: 0;
+  margin-bottom: .3em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-align: left;
+  }
+
+
+@media (min-width: 48em){
+
+nav ol,
+nav ul {
+  padding-left: 1em;
+  overflow: hidden;
+  text-align: center;
+  list-style: none;
+
+}
+
+
+nav li{
+  display: inline;
+  margin: 0 1em;}
+
+}
+
+nav a {
+  display: inline-block;
+}
+
+/* body text */
+
+h4 {
+  font: .7em "arial";
+  color: #070159;
+  text-transform: light;
+  line-height: 1.5em;
+  !letter-spacing: .05em;
+  margin-top: 0;
+  margin-bottom: .3em;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding-left: 20em;
+  padding-right: 20em;
+  text-align: left;
+  }
+
+/* header */
+
+ h2 {
+  font: bold 5em "Amatic-bold", "Arial Narrow", sans-serif;
+  color: white;
+  letter-spacing: .2em;
+  text-align: center;
+  !padding-top: 1em;
+  !padding-bottom: 1em;
+}
+
+#banner {
+  background: #7a9acf url("../img/blue-watercolor.jpg") no-repeat center top;
+  background-size: cover;
+  padding: 5% 0;
+  margin-bottom: 2em;
+}
+
+!#image1 {
+  background: url("../img/infographic.jpg") no-repeat center top;
+  width: 28em;
+  height: 28em;
+  margin: auto;
+  overflow: hidden;
+}
+
+#image1 {
+  width: 28em;
+  margin: auto;
+}
+
+figcaption {
+  color: #7a9acf;
+  letter-spacing: .05em;
+}
+
+#image2 {
+  display: inline-block;
+  margin-bottom: -2em;
+}
+
+#image3 {
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  margin-left: -2em;
+  margin-right: -2em;
+}
+
+
+.blue-watercolor figure{
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    padding-bottom: 25%;
+  }
+
+  details {
+    text-align: center;
+    font: bold 1.5em "Amatic-bold", "Arial Narrow", sans-serif;
+    margin-bottom: 2em;
+  }
+
+  summary {
+    font: bold 1.5em "Amatic-bold", "Arial Narrow", sans-serif;
+  }
+
+  .p1 {
+    margin-top: 2em;
+  }
+
+  nav a{
+    color: #7a9acf;
+    font-size: 1.2em;
+    letter-spacing: .05em;
+  }
