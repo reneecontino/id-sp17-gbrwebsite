@@ -86,6 +86,7 @@ nav a {
 
 /* body text */
 
+
 h4 {
   font: .7em "arial";
   color: #070159;
@@ -96,8 +97,8 @@ h4 {
   margin-bottom: .3em;
   margin-left: 1em;
   margin-right: 1em;
-  padding-left: 20em;
-  padding-right: 20em;
+  padding-left: 1em;
+  padding-right: 1em;
   text-align: left;
   }
 
