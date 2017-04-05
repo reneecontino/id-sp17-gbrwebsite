@@ -1,3 +1,7 @@
+input, textarea {
+  max-width:100%
+}
+
 @font-face {
   font-family: "Amatic-bold";
   src: url("../fonts/amatic-bold-webfont.woff") format("woff"),
