@@ -156,6 +156,8 @@ figcaption {
   overflow: hidden;
   margin-left: -2em;
   margin-right: -2em;
+  width: 26 em;
+  height: 24em;
 }
 
 
