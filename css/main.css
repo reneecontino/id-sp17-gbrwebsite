@@ -130,6 +130,7 @@ h4 {
 #image1 {
   width: 28em;
   margin: auto;
+  display: inline-block;
 }
 
 figcaption {
@@ -148,6 +149,7 @@ figcaption {
   overflow: hidden;
   margin-left: -2em;
   margin-right: -2em;
+  display: inline-block;
 }
 
 #image5 {
@@ -159,6 +161,7 @@ figcaption {
   width: 26em;
   height: 24em;
   padding-bottom: 2em;
+  display: inline-block;
 }
 
 
